@@ -66,14 +66,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-#about, #faq, #partners, #register {
+#faq, #partners, #about {
   padding-top: 50px;
   overflow: hidden;
 }
 
-#about {
+/*#about {
   height: 50vh;
-}
+}*/
 
 #faq {
   /*min-height: 60vh;*/
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: gray;
 }
 
-#register {
+#about {
   min-height: 20vh;
   color: white;
   background-color: black;
