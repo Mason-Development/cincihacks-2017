@@ -1,3 +1,6 @@
+var user;
+var firstname;
+
 function parseURLParams(url) {
   var queryStart = url.indexOf("#") + 1,
   queryEnd  = url.length + 1,
@@ -18,17 +21,43 @@ function parseURLParams(url) {
   return parms;
 }
 
-window.addEventListener("load", function(){
+$(document).load(function(){
   var urlString = window.location.href;
   urlParams = parseURLParams(urlString);
-  // alert(urlParams.access_token);
-  $.get("https://my.mlh.io/api/v2/user.json?access_token="+urlParams.access_token, function(data){
-    // alert(data.data.first_name);
-    var fname = $("#fname");
-    var firstname=data.data.first_name;
-    fname.value = firstname;
-    // alert(fname.innerHTML);
+    alert(status);
+  if(urlParams != null) {
+    $.get("https://my.mlh.io/api/v2/user.json?access_token="+urlParams.access_token,function(data,status){
+      user = data;
+      // status=stat;
+      if (status == "success") {
+        firstname=user.data.first_name;
+        document.querySelector('#thanks').innerHTML = "Thank you for signing up, " + user.data.first_name + "! We're looking forward to seeing you!";
+        throw '';
+      }
+    });
+    document.querySelector('#sign-up').innerHTML = "Haven't signed up? <small>We can change that.</small>";
+    document.querySelector('#thanks').innerHTML = "Sign up <a href=''>here</a> today.";
+    // alert(status);
+  }
+});
 
-  });
 
-});;
+// $(document).load(function() {
+//   alert('test');
+//   setTimeout(function() {
+//     alert('test2');
+//   },1000);
+//   alert('test3');
+// });
+
+
+// function test() {
+//   alert(status);
+//   if (status == "success") {
+//     firstname=user.data.first_name;
+//     document.querySelector('#thanks').innerHTML = "Thank you for signing up, " + user.data.first_name + "! We're looking forward to seeing you!";
+//   } else {
+//     document.querySelector('#sign-up').innerHTML = "Haven't signed up? <small>We can change that.</small>";
+//     document.querySelector('#thanks').innerHTML = "Sign up <a href=''>here</a> today.";
+//   }
+}
