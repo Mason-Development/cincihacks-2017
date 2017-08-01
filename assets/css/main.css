@@ -80,7 +80,7 @@ h1 {
 }
 
 #cinci {
-  background-image: url("/assets/images/skyline-1.jpg");
+  background-image: url("/assets/images/skyline.jpg");
   background-size: cover;
   background-position: left center;
   background-repeat: no-repeat;
@@ -88,7 +88,7 @@ h1 {
 }
 
 #thx {
-  background-image: url("/assets/images/skyline-3.jpg");
+  background-image: url("/assets/images/skyline-alt.jpg");
   background-size: cover;
   background-position: left top;
   background-repeat: no-repeat;
