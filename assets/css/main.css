@@ -74,6 +74,11 @@ h1 {
   color: white;
 }
 
+#color-solid {
+  background-color: rgb(222,84,30);
+  color: white;
+}
+
 #cinci {
   background-image: url("/assets/images/skyline-1.jpg");
   background-size: cover;
