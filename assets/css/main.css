@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   text-align: center;
+  margin-top: 0;
 }
 
 .container-fluid {
@@ -27,7 +28,7 @@ h1 {
 .box {
   margin-top: 5px;
   margin-bottom: 20px;
-  padding: 10px;
+  padding: 0 20px 20px 20px;
   height: 200px;
   width: 100%;
   background-color: #DE541E;
@@ -94,9 +95,11 @@ h1 {
   height: 40vh;
 }
 
-#faq, #sponsors, #about, #register {
+#about, #faq, #sponsors, #team, #register {
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
   overflow: hidden;
 }
 
@@ -111,22 +114,26 @@ h1 {
 }
 
 #sponsors {
-  min-height: 60vh;
+  /*min-height: 60vh;*/
   background-color: white;
 }
 
-#about {
+#team {
   min-height: 20vh;
   background-color: #DE541E;
 }
 
-#about a, #about a:hover {
+#team a, #team a:hover {
   color: white;
 }
 
 #register {
-  min-height: 30vh;
+  /*min-height: 30vh;*/
   background-color: #3F3F37;
+}
+
+#register p {
+  margin-bottom: 0;
 }
 
 @media (max-width:767px) {
