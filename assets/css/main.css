@@ -21,8 +21,27 @@ h1 {
   margin-top: 0;
 }
 
-nav {
-  border: 0 !important;
+.navbar {
+  -webkit-transition: all 1.0s ease-out;
+  -moz-transition: all 1.0s ease-out;
+  -o-transition: all 1.0s ease-out;
+  -ms-transition: all 1.0s ease-out;
+  transition: all 1.0s ease-out;
+  background: transparent;
+  border: 0;
+}
+
+.navbar a {
+  color: white !important;
+}
+
+.scrolled {
+  background: inherit;
+}
+
+.scrolled a {
+  line-height: inherit;
+  color: inherit !important;
 }
 
 .container-fluid {
