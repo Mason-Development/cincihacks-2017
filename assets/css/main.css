@@ -26,6 +26,7 @@ h1 {
 
 .box {
   margin-top: 5px;
+  margin-bottom: 20px;
   padding: 10px;
   height: 200px;
   width: 100%;
@@ -95,6 +96,7 @@ h1 {
 
 #faq, #sponsors, #about, #register {
   padding-top: 50px;
+  padding-bottom: 50px;
   overflow: hidden;
 }
 
@@ -123,6 +125,12 @@ h1 {
 }
 
 #register {
-  height: 30vh;
+  min-height: 30vh;
   background-color: #3F3F37;
+}
+
+@media (max-width:767px) {
+  .box {
+    margin-bottom: 0;
+  }
 }
