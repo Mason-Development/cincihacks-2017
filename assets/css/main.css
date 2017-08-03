@@ -21,6 +21,10 @@ h1 {
   margin-top: 0;
 }
 
+nav {
+  border: 0 !important;
+}
+
 .container-fluid {
   padding: 0;
 }
