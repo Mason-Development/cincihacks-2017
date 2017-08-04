@@ -105,7 +105,7 @@ h1 {
 }
 
 .dark a, .dark a:hover {
-  color: #D6D6B1;
+  color: #D0CFCD;
 }
 
 .focused, .focused a, .focused a:hover {
@@ -152,7 +152,7 @@ h1 {
 #about {
   font-size: 120%;
   padding-bottom: 50px;
-  background-color: #494331;
+  background-color: #54504A;
 }
 
 #about .row {
