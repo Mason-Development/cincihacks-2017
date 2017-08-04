@@ -22,16 +22,17 @@ h1 {
 }
 
 .navbar {
-  -webkit-transition: all 1.0s ease-out;
-  -moz-transition: all 1.0s ease-out;
-  -o-transition: all 1.0s ease-out;
-  -ms-transition: all 1.0s ease-out;
-  transition: all 1.0s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
   background: transparent;
   border: 0;
 }
 
 .navbar a {
+  font-weight: bold;
   color: white !important;
 }
 
@@ -40,8 +41,30 @@ h1 {
 }
 
 .scrolled a {
+  font-weight: inherit;
   line-height: inherit;
   color: inherit !important;
+}
+
+.active a {
+  background-color: white !important;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.active a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #DE541E;
+  height: 4px;
 }
 
 .container-fluid {
@@ -64,7 +87,7 @@ h1 {
   margin: 20px 0;
 }
 
-.text-muted a, a:hover {
+.text-muted a, .text-muted a:hover {
   color: #777;
   text-decoration: underline;
 }
