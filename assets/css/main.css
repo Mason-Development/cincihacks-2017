@@ -125,14 +125,6 @@ h1 {
   color: white;
 }
 
-#cincy {
-  background-image: url("/assets/images/skyline-bw.jpg");
-  background-size: cover;
-  background-position: left center;
-  background-repeat: no-repeat;
-  height: 100%;
-}
-
 #thx {
   background-image: url("/assets/images/skyline-alt.jpg");
   background-size: cover;
@@ -141,7 +133,15 @@ h1 {
   height: 40vh;
 }
 
-#about, #faq, #sponsors, #team, #register {
+#cincy {
+  background-image: url("/assets/images/skyline-bw.jpg");
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+#about, #sponsors, #team, #register {
   padding-top: 52px;
   padding-bottom: 52px;
   margin-top: 0;
@@ -149,13 +149,13 @@ h1 {
   overflow: hidden;
 }
 
-#faq {
+#about {
   font-size: 120%;
   padding-bottom: 50px;
   background-color: #494331;
 }
 
-#faq .row {
+#about .row {
   padding: 0 30px;
 }
 
@@ -171,6 +171,7 @@ h1 {
 
 #team a, #team a:hover {
   color: white;
+  text-decoration: underline;
 }
 
 #register {
