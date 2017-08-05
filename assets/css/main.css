@@ -74,13 +74,23 @@ h1 {
 .box {
   margin-top: 5px;
   margin-bottom: 20px;
-  padding: 0 20px 20px 20px;
-  height: 200px;
+  padding: 25px;
   width: 100%;
   background-color: #DE541E;
   color: white;
-  border-radius: 2px;
+  text-align: justify;
+}
+
+.box p {
+  padding-top: 5px;
+  margin: 0;
+}
+
+.box h3 {
   text-align: left;
+  margin: 0;
+  color: white;
+  text-style: none;
 }
 
 .text-muted {
@@ -196,5 +206,18 @@ h1 {
 
   .box {
     margin-bottom: 0;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) { /*sm*/
+  .box {
+    height: 320px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) { /*md*/
+  .box {
+    height: 370px;
   }
 }
