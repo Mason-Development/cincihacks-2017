@@ -78,7 +78,12 @@ h1 {
   width: 100%;
   background-color: #DE541E;
   color: white;
-  text-align: justify;
+  text-align: left;
+  cursor:pointer;
+}
+
+.box a {
+
 }
 
 .box p {
@@ -202,22 +207,5 @@ h1 {
     font-weight: inherit;
     line-height: inherit;
     color: inherit !important;
-  }
-
-  .box {
-    margin-bottom: 0;
-    height: auto;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 992px) { /*sm*/
-  .box {
-    height: 320px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) { /*md*/
-  .box {
-    height: 370px;
   }
 }
