@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500|Raleway:400,400i,500,500i');
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script|Raleway:400,400i,500,500i');
 
 html, body {
   position: relative;
@@ -11,9 +11,8 @@ body {
   color: #3F3F37;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 500;
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+  font-family: 'Oleo Script', sans-serif;
 }
 
 h1 {
@@ -32,8 +31,11 @@ h1 {
 }
 
 .navbar a {
-  font-weight: bold;
   color: white !important;
+}
+
+.navbar li {
+  font-weight: bold;
 }
 
 .scrolled {
@@ -41,9 +43,12 @@ h1 {
 }
 
 .scrolled a {
-  font-weight: inherit;
   line-height: inherit;
   color: inherit !important;
+}
+
+.scrolled li {
+  font-weight: inherit;
 }
 
 .active a {
@@ -141,8 +146,6 @@ h1 {
   color: white !important;
 }
 
-
-
 #color {
   width: 100%;
   height: 100%;
@@ -202,6 +205,10 @@ h1 {
 #team a, #team a:hover {
   color: white;
   text-decoration: underline;
+}
+
+#team h4, h5 {
+  font-family: "Raleway", sans-serif;
 }
 
 #register {
