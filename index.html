@@ -10,6 +10,7 @@
   <meta property="og:image:width" content="5112">
   <meta property="og:image:height" content="3408">
   <meta name="theme-color" content="#DE541E"/>
+  <link href="https://fonts.googleapis.com/css?family=Oleo+Script|Raleway:400,400i,700,700i" rel="stylesheet">
   <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="/assets/css/hover.css" rel="stylesheet">
   <link href="/assets/css/main.css" rel="stylesheet">
@@ -129,13 +130,13 @@
       <h1>Our Sponsors</h1>
       <div class="col-xs-12 col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3 flex">
         <div class="col-xs-4">
-          <a href="https://masonhackclub.tech" target="_blank" rel="noopener"><img class="img-responsive" src="/assets/images/sponsors/mason-hack-club.svg" alt="Mason Hack Club"></a>
+          <a href="https://masonhackclub.tech" target="_blank" rel="noopener"><img class="img-responsive b-lazy" data-src="/assets/images/sponsors/mason-hack-club.svg" alt="Mason Hack Club"></a>
         </div>
         <div class="col-xs-4">
-          <a href="https://hackclub.com" target="_blank" rel="noopener"><img class="img-responsive" src="/assets/images/sponsors/hack-club.svg" alt="Hack Club"></a>
+          <a href="https://hackclub.com" target="_blank" rel="noopener"><img class="img-responsive b-lazy" data-src="/assets/images/sponsors/hack-club.svg" alt="Hack Club"></a>
         </div>
         <div class="col-xs-4">
-          <a href="https://acmatuc.org" target="_blank" rel="noopener"><img class="img-responsive" src="/assets/images/sponsors/uc-acm.png" alt="ACM@UC"></a>
+          <a href="https://acmatuc.org" target="_blank" rel="noopener"><img class="img-responsive b-lazy" data-src="/assets/images/sponsors/uc-acm.png" alt="ACM@UC"></a>
         </div>
       </div>
     </div>
@@ -147,49 +148,49 @@
         <div class="row">
           <a href="https://daltoncraven.tech/" target="_blank" rel="noopener">
             <div class="col-xs-6 col-sm-3">
-              <img class="img-circle img-responsive" src="/assets/images/staff/dalton-craven.jpg" alt="Dalton Craven">
+              <img class="img-circle img-responsive b-lazy" data-src="/assets/images/staff/dalton-craven.jpg" alt="Dalton Craven">
               <h4>Dalton Craven</h4>
               <h5>Marketing</h5>
             </div>
           </a>
           <div class="col-xs-6 col-sm-3">
-            <img class="img-circle img-responsive" src="/assets/images/staff/arnav-ghule.jpg" alt="Arnav Ghule">
+            <img class="img-circle img-responsive b-lazy" data-src="/assets/images/staff/arnav-ghule.jpg" alt="Arnav Ghule">
             <h4>Arnav Ghule</h4>
             <h5>Marketing</h5>
           </div>
           <a href="http://megancui.tech/" target="_blank" rel="noopener">
             <div class="col-xs-6 col-sm-3">
-              <img class="img-circle img-responsive" src="/assets/images/staff/megan-cui.jpg" alt="Megan Cui">
+              <img class="img-circle img-responsive b-lazy" data-src="/assets/images/staff/megan-cui.jpg" alt="Megan Cui">
               <h4>Megan Cui</h4>
               <h5>Logistics</h5>
             </div>
           </a>
           <div class="col-xs-6 col-sm-3">
-            <img class="img-circle img-responsive" src="/assets/images/staff/scott-shepherd.jpg" alt="Scott Shepherd">
+            <img class="img-circle img-responsive b-lazy" data-src="/assets/images/staff/scott-shepherd.jpg" alt="Scott Shepherd">
             <h4>Scott Shepherd</h4>
             <h5>Logistics</h5>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-6 col-sm-3">
-            <img class="img-circle img-responsive" src="/assets/images/staff/annie-wang.jpg" alt="Annie Wang">
+            <img class="img-circle img-responsive b-lazy" data-src="/assets/images/staff/annie-wang.jpg" alt="Annie Wang">
             <h4>Annie Wang</h4>
             <h5>Sponsorship</h5>
           </div>
           <a href="https://awguo2019.github.io/" target="_blank" rel="noopener">
             <div class="col-xs-6 col-sm-3">
-              <img class="img-circle img-responsive" src="/assets/images/staff/alan-guo.jpg" alt="Alan Guo">
+              <img class="img-circle img-responsive b-lazy" data-src="/assets/images/staff/alan-guo.jpg" alt="Alan Guo">
               <h4>Alan Guo</h4>
               <h5>Sponsorship</h5>
             </div>
           </a>
           <div class="col-xs-6 col-sm-3">
-            <img class="img-circle img-responsive" src="/assets/images/staff/rachel-zhan.png" alt="Rachel Zhan">
+            <img class="img-circle img-responsive b-lazy" data-src="/assets/images/staff/rachel-zhan.jpg" alt="Rachel Zhan">
             <h4>Rachel Zhan</h4>
             <h5>Sponsorship</h5>
           </div>
           <div class="col-xs-6 col-sm-3">
-            <img class="img-circle img-responsive" src="/assets/images/staff/vikram-deepak.jpg" alt="Vikram Deepak">
+            <img class="img-circle img-responsive b-lazy" data-src="/assets/images/staff/vikram-deepak.jpg" alt="Vikram Deepak">
             <h4>Vikram Deepak</h4>
             <h5>Hacker Experience</h5>
           </div>
@@ -217,8 +218,16 @@
   </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="/assets/js/bootstrap.min.js"></script>
-  <script src="/assets/js/scroll.js"></script>
-  <script src="/assets/js/navbar.js"></script>
+  <script src="/assets/js/bootstrap.min.js" async></script>
+  <script src="/assets/js/scroll.js" async></script>
+  <script src="/assets/js/navbar.js" async></script>
+  <!-- <script src="/assets/js/lazyload.js"></script> -->
+  <script src="/assets/js/blazy.js"></script>
+<script>
+    ;(function() {
+        // Initialize
+        var bLazy = new Blazy();
+    })();
+</script>
 </body>
 </html>

@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Oleo+Script|Raleway:400,400i,500,500i');
-
 html, body {
   position: relative;
   height: 100%;
@@ -18,6 +16,15 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 h1 {
   text-align: center;
   margin-top: 0;
+}
+
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+img[data-src] {
+  opacity: 0;
 }
 
 .navbar {
