@@ -1,5 +1,5 @@
 // Add scrollspy to <body>
-$('body').scrollspy({target: ".navbarte", offset: 50});
+$('body').scrollspy({target: ".navbar", offset: 50});
 $("a").on('click', function(event) {
 
   // Make sure this.hash has a value before overriding default behavior
