@@ -130,18 +130,21 @@ h1 {
 .button {
   text-decoration: none !important;
   margin: .4em;
-  padding: 1em;
+  padding: .7em;
   font-size: 130%;
-  /*cursor: pointer;*/
   background: #e1e1e1;
   color: #666 !important;
-  /* Prevent highlight colour when element is tapped */
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .button-orange {
   background: #DE541E;
   color: white !important;
+}
+
+.button-small {
+  /*padding: .5em;*/
+  font-size: 90%;
 }
 
 #color {
@@ -208,6 +211,7 @@ h1 {
 #team h4, h5 {
   font-family: "Raleway", sans-serif;
 }
+
 
 #register {
   /*min-height: 30vh;*/
