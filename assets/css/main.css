@@ -95,7 +95,7 @@ h1 {
   text-align: left;
   margin: 0;
   color: white;
-  text-style: none;
+  font-style: none;
 }
 
 .text-muted {
@@ -138,7 +138,7 @@ h1 {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-.button-orange {
+.button-red {
   background: #E32C40;
   color: white !important;
 }
@@ -197,6 +197,10 @@ h1 {
   padding: 0 30px;
 }
 
+#about .fa {
+  padding-left: 5px;
+}
+
 #sponsors {
   background-color: white;
 }
@@ -208,13 +212,19 @@ h1 {
 
 #team a, #team a:hover {
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
+  padding-bottom: 20px;
 }
 
 #team h4, h5 {
   font-family: "Raleway", sans-serif;
 }
 
+#team .fa {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 150%;
+}
 
 #register {
   background-color: #4B4B4B;
