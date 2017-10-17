@@ -183,7 +183,7 @@ h1 {
   font-weight: 600 !important;
 }
 
-#about, #sponsors, #team, #register {
+#about, #sponsors, #team, #schedule, #register {
   padding-top: 52px;
   padding-bottom: 52px;
   margin-top: 0;
@@ -210,6 +210,12 @@ h1 {
 }
 
 #team {
+  min-height: 20vh;
+  background-color: #E32C40;
+}
+
+#schedule {
+  font-size: 120%;
   min-height: 20vh;
   background-color: #E32C40;
 }
