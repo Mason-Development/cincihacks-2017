@@ -265,6 +265,10 @@ h1 {
   margin-bottom: 0;
 }
 
+#thanks {
+  background-color: #4B4B4B;
+}
+
 #mlh-trust-badge {
   display:absolute;
   max-width:100px;
