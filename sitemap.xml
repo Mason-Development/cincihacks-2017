@@ -2,66 +2,62 @@
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://cincyhacks.tech/</loc>
+    <loc>https://cincyhacks.com/</loc>
     <lastmod>2017-08-01</lastmod>
     <image:image>
-      <image:loc>https://cincyhacks.tech/assets/images/skyline.jpg</image:loc>
+      <image:loc>https://cincyhacks.com/assets/images/skyline.jpg</image:loc>
       <image:title>Cincinnati Skyline</image:title>
       <image:caption>Cincinnati Skyline</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cincyhacks.tech/assets/images/skyline-2.jpg</image:loc>
+      <image:loc>https://cincyhacks.com/assets/images/skyline-2.jpg</image:loc>
       <image:title>Cincinnati Skyline 2</image:title>
       <image:caption>Cincinnati Skyline 2</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cincyhacks.tech/assets/images/sponsors/acmatuclogo.png</image:loc>
+      <image:loc>https://cincyhacks.com/assets/images/sponsors/acmatuclogo.png</image:loc>
       <image:title>ACM@UC</image:title>
       <image:caption>ACM@UC</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cincyhacks.tech/assets/images/sponsors/hack-club.svg</image:loc>
+      <image:loc>https://cincyhacks.com/assets/images/sponsors/hack-club.svg</image:loc>
       <image:title>Hack Club</image:title>
       <image:caption>Hack Club</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cincyhacks.tech/assets/images/staff/dalton-craven.jpg</image:loc>
+      <image:loc>https://cincyhacks.com/assets/images/staff/dalton-craven.jpg</image:loc>
       <image:title>Dalton Craven</image:title>
       <image:caption>Dalton Craven</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cincyhacks.tech/assets/images/staff/megan-cui.jpg</image:loc>
+      <image:loc>https://cincyhacks.com/assets/images/staff/megan-cui.jpg</image:loc>
       <image:title>Megan Cui</image:title>
       <image:caption>Megan Cui</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cincyhacks.tech/assets/images/staff/vikram-deepak.jpg</image:loc>
+      <image:loc>https://cincyhacks.com/assets/images/staff/vikram-deepak.jpg</image:loc>
       <image:title>Vikram Deepak</image:title>
       <image:caption>Vikram Deepak</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cincyhacks.tech/assets/images/staff/arnav-ghule.jpg</image:loc>
+      <image:loc>https://cincyhacks.com/assets/images/staff/arnav-ghule.jpg</image:loc>
       <image:title>Arnav Ghule</image:title>
       <image:caption>Arnav Ghule</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cincyhacks.tech/assets/images/staff/alan-guo.jpg</image:loc>
+      <image:loc>https://cincyhacks.com/assets/images/staff/alan-guo.jpg</image:loc>
       <image:title>Alan Guo</image:title>
       <image:caption>Alan Guo</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cincyhacks.tech/assets/images/staff/annie-wang.jpg</image:loc>
+      <image:loc>https://cincyhacks.com/assets/images/staff/annie-wang.jpg</image:loc>
       <image:title>Annie Wang</image:title>
       <image:caption>Annie Wang</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://cincyhacks.tech/assets/images/staff/rachel-zhan.png</image:loc>
+      <image:loc>https://cincyhacks.com/assets/images/staff/rachel-zhan.png</image:loc>
       <image:title>Rachel Zhan</image:title>
       <image:caption>Rachel Zhan</image:caption>
     </image:image>
-  </url>
-  <url>
-    <loc>https://cincyhacks.tech/register.html</loc>
-    <lastmod>2017-08-01</lastmod>
   </url>
 </urlset>
